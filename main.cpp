@@ -3,9 +3,9 @@
 #include <vector>
 #include <GL/glut.h>
 #include <cmath>
-#include "Light.h"
-#include "sphere.h"
-#include "plane.h"
+#include "entity/Light.h"
+#include "entity/sphere.h"
+#include "entity/plane.h"
 
 
 const int MAX_RECURSION_DEPTH = 3;
@@ -197,7 +197,7 @@ int main(int argc, char *argv[]) {
     glClearColor(0.1f, 0.1f, 0.1f, 0.0f); // background is light gray
     glutMainLoop();
     for (auto &object: objects) delete object;
-    
+
     return 0;
 }
 
