@@ -3,9 +3,9 @@
 #include <vector>
 #include <GL/glut.h>
 #include <cmath>
-#include "entity/Light.h"
-#include "entity/sphere.h"
-#include "entity/plane.h"
+#include "src/entity/Light.h"
+#include "src/entity/sphere.h"
+#include "src/entity/plane.h"
 
 
 const int MAX_RECURSION_DEPTH = 3;
