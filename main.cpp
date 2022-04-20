@@ -197,7 +197,9 @@ int main(int argc, char *argv[]) {
     glClearColor(0.1f, 0.1f, 0.1f, 0.0f); // background is light gray
     glutMainLoop();
     for (auto &object: objects) delete object;
-
+    for (int i = 1; i <= 26; i++) {
+        putchar(i + 'a' - 1);
+    }
     return 0;
 }
 
