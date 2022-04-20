@@ -128,6 +128,30 @@ gl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl.dir\build.make CMakeFiles/gl.dir/build
 .PHONY : gl/fast
 
+heloo.obj: heloo.cpp.obj
+.PHONY : heloo.obj
+
+# target to build an object file
+heloo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl.dir\build.make CMakeFiles/gl.dir/heloo.cpp.obj
+.PHONY : heloo.cpp.obj
+
+heloo.i: heloo.cpp.i
+.PHONY : heloo.i
+
+# target to preprocess a source file
+heloo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl.dir\build.make CMakeFiles/gl.dir/heloo.cpp.i
+.PHONY : heloo.cpp.i
+
+heloo.s: heloo.cpp.s
+.PHONY : heloo.s
+
+# target to generate assembly for a file
+heloo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl.dir\build.make CMakeFiles/gl.dir/heloo.cpp.s
+.PHONY : heloo.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -233,6 +257,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... gl
+	@echo ... heloo.obj
+	@echo ... heloo.i
+	@echo ... heloo.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
