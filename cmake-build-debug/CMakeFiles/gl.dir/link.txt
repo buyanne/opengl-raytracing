@@ -1,0 +1,3 @@
+"D:\CandC++\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\gl.dir/objects.a
+D:\CandC++\mingw\mingw64\bin\ar.exe cr CMakeFiles\gl.dir/objects.a @CMakeFiles\gl.dir\objects1.rsp
+D:\CandC++\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\gl.dir/objects.a -Wl,--no-whole-archive -o bin\gl.exe -Wl,--out-implib,libgl.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\gl.dir\linklibs.rsp

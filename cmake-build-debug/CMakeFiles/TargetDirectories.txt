@@ -1,0 +1,3 @@
+D:/CandC++/C_Code/gl/cmake-build-debug/CMakeFiles/gl.dir
+D:/CandC++/C_Code/gl/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CandC++/C_Code/gl/cmake-build-debug/CMakeFiles/rebuild_cache.dir

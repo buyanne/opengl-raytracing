@@ -1,0 +1,1 @@
+  -LD:/CandC++/C_Code/gl/src/lib/x64  -Wl,-Bstatic -lopengl32 -lfreeglut -Wl,-Bdynamic -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
