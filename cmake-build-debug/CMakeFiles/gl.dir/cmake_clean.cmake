@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gl.dir/heloo.cpp.obj"
   "CMakeFiles/gl.dir/main.cpp.obj"
   "CMakeFiles/gl.dir/src/entity/Vector3d.cpp.obj"
   "CMakeFiles/gl.dir/src/entity/plane.cpp.obj"

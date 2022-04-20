@@ -82,12 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CandC++/C_Code/gl/heloo.cpp">
-			<Option target="gl"/>
-		</Unit>
-		<Unit filename="D:/CandC++/C_Code/gl/heloo.h">
-			<Option target="gl"/>
-		</Unit>
 		<Unit filename="D:/CandC++/C_Code/gl/main.cpp">
 			<Option target="gl"/>
 		</Unit>

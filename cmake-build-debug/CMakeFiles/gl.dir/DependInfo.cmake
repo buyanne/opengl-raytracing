@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/CandC++/C_Code/gl/heloo.cpp" "D:/CandC++/C_Code/gl/cmake-build-debug/CMakeFiles/gl.dir/heloo.cpp.obj"
   "D:/CandC++/C_Code/gl/main.cpp" "D:/CandC++/C_Code/gl/cmake-build-debug/CMakeFiles/gl.dir/main.cpp.obj"
   "D:/CandC++/C_Code/gl/src/entity/Vector3d.cpp" "D:/CandC++/C_Code/gl/cmake-build-debug/CMakeFiles/gl.dir/src/entity/Vector3d.cpp.obj"
   "D:/CandC++/C_Code/gl/src/entity/plane.cpp" "D:/CandC++/C_Code/gl/cmake-build-debug/CMakeFiles/gl.dir/src/entity/plane.cpp.obj"

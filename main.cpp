@@ -197,7 +197,7 @@ int main(int argc, char *argv[]) {
     glClearColor(0.1f, 0.1f, 0.1f, 0.0f); // background is light gray
     glutMainLoop();
     for (auto &object: objects) delete object;
-    cout<<"helloworld"<<endl;
+    std::cout<<"hello,world"<<std::endl;
     return 0;
 }
 
